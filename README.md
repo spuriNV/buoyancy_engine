@@ -1,8 +1,8 @@
-# 🚢 Buoyancy Engine Control System
+#  Buoyancy Engine Control System
 
 A complete system with real-time data collection, transmission, and visualization for the buoyancy engine for the MATE ROV competition for SFU Subvision. 
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────┐    WiFi    ┌─────────────────┐    HTTP    ┌─────────────────┐
@@ -17,7 +17,7 @@ A complete system with real-time data collection, transmission, and visualizatio
                                └─────────────────┘
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### **Hardware Layer**
 - **Arduino Board**: Controls buoyancy mechanism and sensors
@@ -46,7 +46,7 @@ A complete system with real-time data collection, transmission, and visualizatio
 - **body-parser**: Request body parsing middleware
 - **WebSocket**: Real-time dashboard updates (future enhancement)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 buoyancy_materov/
@@ -73,7 +73,7 @@ buoyancy_materov/
 └── README.md
 ```
 
-## 🔄 Data Flow
+##  Data Flow
 
 ### **1. Underwater Operation**
 ```
@@ -104,7 +104,7 @@ MongoDB → Dashboard API → Chart.js → Real-time Graphs
 - Shows pressure vs time visualization
 - Supports profile filtering and data export
 
-## 🎯 Mission Phases
+##  Mission Phases
 
 ### **First Vertical Profile**
 1. **WAITING**: System ready, waiting for start signal
@@ -120,7 +120,7 @@ MongoDB → Dashboard API → Chart.js → Real-time Graphs
 9. **SECOND_AT_SURFACE**: Transmit second profile data
 10. **COMPLETE**: Mission finished
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### **Prerequisites**
 
@@ -200,7 +200,7 @@ ipconfig | findstr IPv4
 3. Select the correct port
 4. Click "Upload"
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### **1. Start the Complete System**
 ```bash
@@ -254,7 +254,7 @@ node test-arduino-data.js
 ```
 
 
-## 📊 Dashboard Features
+##  Dashboard Features
 
 ### **Real-time Monitoring**
 - Current depth and pressure readings
@@ -271,7 +271,7 @@ node test-arduino-data.js
 - **Real-time Updates**: Auto-refresh every 5 seconds
 - **Historical Data**: View all mission data
 
-## 🔧 Configuration
+##  Configuration
 
 ### **Arduino Settings**
 ```cpp
@@ -299,7 +299,7 @@ const float FLOAT_BOTTOM_OFFSET_CM = 10.0;
 const float DEPTH_CONVERSION_FACTOR = 1.0;
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### **Simulate Arduino Data**
 ```bash
