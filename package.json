@@ -1,0 +1,14 @@
+{
+  "name": "buoyancy-test",
+  "version": "1.0.0",
+  "description": "Test script for buoyancy control system",
+  "main": "test-arduino-data.js",
+  "scripts": {
+    "test": "node test-arduino-data.js",
+    "test-complete": "node test-complete-system.js",
+    "test-simple": "node test-arduino-data.js"
+  },
+  "dependencies": {
+    "axios": "^1.10.0"
+  }
+}
