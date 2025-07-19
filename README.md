@@ -4,17 +4,6 @@
 
 A complete underwater buoyancy control system with real-time data collection, transmission, and visualization for the MATE ROV competition. Features embedded Arduino sensors, dual-server architecture, cloud MongoDB integration, and real-time dashboard visualization.
 
-## 🚀 System Performance Metrics
-
-### **Proven Results (From Real Testing):**
-- ✅ **100% Success Rate** - 50/50 data points transmitted successfully
-- ✅ **7.42 data points/second** - Real-time processing speed
-- ✅ **91.7% Efficiency Improvement** - Over manual sampling methods
-- ✅ **1,233% Data Collection Improvement** - Over typical mission requirements
-- ✅ **±0.25 PSI Precision** - High-precision depth control
-- ✅ **90% Mission Automation** - 9/10 phases automated
-- ✅ **400 Data Point Capacity** - Massive storage improvement
-
 ## System Architecture
 
 ```
@@ -277,56 +266,4 @@ curl -X POST http://localhost:3000/api/data \
 - **Real-time Updates**: Auto-refresh every 5 seconds
 - **Historical Data**: View all mission data
 
-## Security Features
-
-### **Environment Variables**
-- ✅ **No hardcoded passwords** in source code
-- ✅ **Secure credential management** via `.env` files
-- ✅ **Git-ignored sensitive files** to prevent accidental commits
-- ✅ **Template files** for easy setup
-
-### **Cloud Database**
-- ✅ **MongoDB Atlas integration** for reliable data storage
-- ✅ **Automatic database creation** on first data insertion
-- ✅ **Real-time data persistence** across system restarts
-
-## Performance Metrics
-
-### **System Reliability**
-- **100% Success Rate**: All data transmissions successful
-- **Zero Data Loss**: Complete data integrity
-- **Real-time Processing**: 7.42 data points/second
-
-### **Efficiency Improvements**
-- **91.7% Efficiency**: Over manual sampling methods
-- **1,233% Data Capacity**: Over typical mission requirements
-- **436x Faster Processing**: Than manual methods
-
-### **Technical Achievements**
-- **±0.25 PSI Precision**: High-precision depth control
-- **90% Mission Automation**: Minimal human intervention
-- **400 Data Point Capacity**: Massive storage improvement
-- **Dual-Server Architecture**: High-reliability design
-
-## Testing
-
-### **Complete System Test**
-The system has been thoroughly tested with:
-- ✅ **50 data points** transmitted successfully
-- ✅ **100% success rate** across complete workflow
-- ✅ **Real-time processing** at 7.42 data points/second
-- ✅ **Cloud database integration** working perfectly
-- ✅ **Dashboard visualization** displaying all data
-
-### **Manual Test Data**
-```bash
-curl -X POST http://localhost:3000/api/data \
-  -H "Content-Type: application/json" \
-  -d '{
-    "pressure": 2.5,
-    "depth": 4.0,
-    "timestamp": "2025-07-19T01:12:22.212Z",
-    "phase": "DEPTH_CONTROL"
-  }'
-```
 
