@@ -1,0 +1,32 @@
+# Environment variables (contains passwords)
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+dashboard.log
+data-logger.log
+
+# Node modules
+node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local analysis files (not pushed to GitHub)
+analysis-metrics.md 
